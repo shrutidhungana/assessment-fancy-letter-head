@@ -1,0 +1,66 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: sans-serif;
+}
+
+body {
+  margin: 0;
+  background: #ccc;
+}
+
+article {
+  width: 210mm;
+  height: 297mm;
+  margin: 20px auto;
+  position: relative;
+}
+
+address {
+  position: absolute;
+  bottom: 8mm;
+  right: 20mm;
+}
+
+h1 {
+  position: absolute;
+  top: 12mm;
+  left: 20mm;
+  width: 128px;
+  height: 128px;
+  font-size: 20px;
+  letter-spacing: 1px;
+  text-align: center;
+  padding: 44px 0;
+  color: white;
+  text-shadow: 1px 1px 1px black;
+}
+
+article {
+  background-image: url(https://cdn.glitch.global/98e935b6-a092-49d1-9438-e6f5cbc7bcb5/top-image.png?v=1669096700409/images/)
+    no-repeat top;
+
+  background: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.2),
+      rgba(0, 0, 0, 0) 20%,
+      rgba(0, 0, 0, 0) 80%,
+      rgba(0, 0, 0, 0.2)
+    ),
+    url(https://cdn.glitch.global/98e935b6-a092-49d1-9438-e6f5cbc7bcb5/top-image.png?v=1669096700409/images/)
+      no-repeat left top,
+    url(https://cdn.glitch.global/98e935b6-a092-49d1-9438-e6f5cbc7bcb5/bottom-image.png?v=1669096871493/images/)
+      no-repeat left bottom,
+    white;
+
+  border-top: 1mm solid rgb(255, 0, 0);
+  border-bottom: 1mm solid rgb(255, 0, 0);
+}
+
+h1 {
+  background-image: url(https://cdn.glitch.global/98e935b6-a092-49d1-9438-e6f5cbc7bcb5/logo.png?v=1669096983431/images/);
+  border-radius: 64px;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 1);
+}
